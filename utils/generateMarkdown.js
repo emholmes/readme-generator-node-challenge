@@ -2,44 +2,59 @@
 const badges = [
   {
     licenseName: "MIT", 
-    badge: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    licenseUrl: "(https://opensource.org/licenses/MIT)",
+    badgeSvg: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]"
   }, 
   {
     licenseName: "APACHE 2.0",
-    badge: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    licenseUrl: "(https://opensource.org/licenses/Apache-2.0)",
+    badgeSvg: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]"
   },
   {
     licenseName: "Boost",
-    badge: "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
+    licenseUrl: "(https://www.boost.org/LICENSE_1_0.txt)",
+    badgeSvg: "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]"
   },
   {
     licenseName: "CCO",
-    badge: "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)"
+    licenseUrl: "(http://creativecommons.org/publicdomain/zero/1.0/)",
+    badgeSvg: "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)]"
   }, 
   {
     licenseName: "Eclipse",
-    badge: "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)"
+    licenseUrl: "(https://opensource.org/licenses/EPL-1.0)",
+    badgeSvg: "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)]"
   },
   {
     licenseName: "Perl",
-    badge: "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)"
+    licenseUrl: "(https://opensource.org/licenses/Artistic-2.0)",
+    badgeSvg: "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)]"
   },
   {
     licenseName: "GPL 3.0",
-    badge: "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+    licenseUrl: "(https://www.gnu.org/licenses/gpl-3.0)",
+    badgeSvg: "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]"
   },
   {
     licenseName: "BSD 3",
-    badge: "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    licenseUrl: "(https://opensource.org/licenses/BSD-3-Clause)",
+    badgeSvg: "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]"
   }
 ]
+const findLicenseArray = (license) => {
+  const badgeArray = badges.filter(arr => arr["licenseName"] === license);
+  return badgeArray[0];
+}
+
 // If there is no license, return an empty string
 const renderLicenseBadge = (license) => {
   if (license === "None") {
     return "";
   } else {
-    const badgeArray = badges.filter(arr => arr["licenseName"] === license);
-    return badgeArray[0].badge;
+    // const badgeArray = badges.filter(arr => arr["licenseName"] === license);
+    // return badgeArray[0].badge;
+    let licenseArray = findLicenseArray(license);
+    return `${licenseArray.badgeSvg}${licenseArray.licenseUrl}`;
   }
 }
 
@@ -59,7 +74,8 @@ const renderLicenseSection = (license) => {
   if (license === "None") {
     return "";
   } else {
-    return `## License \n Licensed under the ${license} license. `;
+    let licenseArray = findLicenseArray(license);
+    return `## License \n Licensed under the [${license}]${licenseArray.licenseUrl} license. `;
   }
 }
 
