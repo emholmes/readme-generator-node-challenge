@@ -1,7 +1,7 @@
  
   #  
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
   ## Description
   
@@ -23,7 +23,7 @@
   
 
   ## License 
- Licensed under the [MIT](https://opensource.org/licenses/MIT) license. 
+ Licensed under the [Boost 1.0](https://www.boost.org/LICENSE_1_0.txt) license. 
 
   ## Contributing
   

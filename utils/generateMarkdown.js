@@ -11,7 +11,7 @@ const badges = [
     badgeSvg: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]"
   },
   {
-    licenseName: "Boost",
+    licenseName: "Boost 1.0",
     licenseUrl: "(https://www.boost.org/LICENSE_1_0.txt)",
     badgeSvg: "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)]"
   },
