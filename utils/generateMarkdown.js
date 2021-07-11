@@ -82,7 +82,7 @@ const generateMarkdown = (data) => {
   * [Questions](#questions)
   
   ## Installation
-  To install any necessay dependencies fun the following command: 
+  To install any necessay dependencies run the following command: 
 
     ${data.installation}
 
@@ -96,7 +96,7 @@ const generateMarkdown = (data) => {
 
   ## Tests
   To run tests, use the following command: 
-
+  
     ${data.tests}
 
   ## Questions

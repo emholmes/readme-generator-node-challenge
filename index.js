@@ -35,7 +35,7 @@ const questions = [
   {
     type: "input",
     name: "installation", 
-    message: "Provide the steps required to get a development environment running for this project."
+    message: "What command is used to install dependencies?"
   }, 
   {
     type: "input",
