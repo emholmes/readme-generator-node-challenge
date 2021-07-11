@@ -87,18 +87,22 @@ const generateMarkdown = (data) => {
     ${data.installation}
 
   ## Usage
+  ${data.usage}
 
   ${renderLicenseSection(data.license)}
 
   ## Contributing
+  ${data.contributing}
 
   ## Tests
   To run tests, use the following command: 
+
     ${data.tests}
 
   ## Questions
-  If you have any questions about the repo, create a new issue and add the label "question" or contact me directly at [![Email](${data.email})](mailto:${data.email}).
-  View more of my at ${data.username}.
+  If you have any questions about the repo, create a new issue and add the label "question" or contact me directly at [${data.email}](mailto:${data.email}). 
+  
+  View more of my work on GitHub: [${data.username}](https://github.com/${data.username}).
   `;
 }
 
