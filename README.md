@@ -1,40 +1,36 @@
- 
-  # README Generator 
+# Professional README Generator 
+## Node.js Challenge
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Description
+This repo contains the code to generate a README file using node.js and command-line prompts via Inquirer.js. This repository uses Node.js, npm, inquirer.js, and markdown. View the installation and usage sections below for more details on how to use this repo.
 
-  ## Description
-  This repo contains the code to generate a README file using node.js and command-line prompts via Inquirer.js.
 
-  ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Video Walkthrough](#video-walkthrough)
+* [Questions](#questions)
   
-  ## Installation
-  To install any necessay dependencies run the following command: 
+## Installation
+To install any necessay dependencies run the following command: 
 
     npm install
 
-  ## Usage
-  After you clone the repo to your local machine, open the package up in your favorite IDE. Make sure npm is installed (hint: `npm -v`). From within your local package’s root directory install inquirer.js, `npm install inquirer`. This will install all inquirer dependencies. Once inquirer is installed, execute the program by running `node index.js` in the terminal. You will be prompted with some questions about the project for the README being generated. Once all questions are answered, a README.md is generated in the main package folder. 
+## Usage
+After you clone the repo to your local machine, open the package up in your favorite IDE. Make sure npm is installed (hint: `npm -v`). From within your local package’s root directory install inquirer.js, `npm install inquirer`. This will install all inquirer dependencies. Once inquirer is installed, execute the program by running `node index.js` in the terminal. You will be prompted with some questions about the project for the README being generated. Once all questions are answered, a README.md is generated in the root directory.  
 
-  ## License 
- Licensed under the [MIT](https://opensource.org/licenses/MIT) license. 
+## Video Walkthrough 
+[Video walkthrough](https://drive.google.com/file/d/1C93Apu6RfJPSAJdn-KKaQ2Ckb8MRg0f4/view)
 
-  ## Contributing
-  To contribute to this repo, create a new issue, fork the repo, and link issue to PR when submitting work for review. Anyone is open to contribute to this repo, but all submissions will go through an approval process. 
+View README generated in this video view the [video-walkthrough branch](https://github.com/emholmes/readme-generator-nodejs/tree/video-walkthrough).
 
-  ## Tests
-  To run tests, use the following command: 
-  
-    npm run test
+Invoking application in the terminal:
+![Command-line prompts](./assets/images/terminal-prompts.png)
 
-  ## Questions
-  If you have any questions about the repo, create a new issue and add the label "question" or contact me directly at [emholmes@fakeemail.com](mailto:emholmes@fakeemail.com). 
-  
-  View more of my work on GitHub: [emholmes](https://github.com/emholmes).
-  
+README Generated in Video Walkthrough:
+![Generated README file](./assets/images/generated-readme.png)
+
+## Questions
+If you have any questions or feedback about the repo, create a new issue and add the label "question”.
+View more of my work on GitHub: [emholmes](https://github.com/emholmes).
