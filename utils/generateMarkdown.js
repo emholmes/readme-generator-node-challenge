@@ -41,6 +41,7 @@ const badges = [
     badgeSvg: "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]"
   }
 ]
+
 const findLicenseArray = (license) => {
   const badgeArray = badges.filter(arr => arr["licenseName"] === license);
   return badgeArray[0];
