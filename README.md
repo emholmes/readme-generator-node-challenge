@@ -21,7 +21,7 @@ To install any necessay dependencies run the following command:
 After you clone the repo to your local machine, open the package up in your favorite IDE. Make sure node.js and npm are installed (hint: `node -v` & `npm -v`). From within your local package’s root directory install inquirer.js, `npm install inquirer`. This will install all inquirer dependencies. Once inquirer is installed, execute the program by running `node index.js` in the terminal. You will be prompted with some questions about the project for the README being generated. Once all questions are answered, a README.md is generated in the root directory.  
 
 ## Video Walkthrough 
-[Watch Video walkthrough](https://drive.google.com/file/d/1C93Apu6RfJPSAJdn-KKaQ2Ckb8MRg0f4/view)
+[Watch video walkthrough](https://drive.google.com/file/d/1C93Apu6RfJPSAJdn-KKaQ2Ckb8MRg0f4/view)
 
 Invoking application in the terminal:
 ![Command-line prompts](./assets/images/terminal-prompts.png)
