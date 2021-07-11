@@ -23,12 +23,10 @@ After you clone the repo to your local machine, open the package up in your favo
 ## Video Walkthrough 
 [Video walkthrough](https://drive.google.com/file/d/1C93Apu6RfJPSAJdn-KKaQ2Ckb8MRg0f4/view)
 
-View README generated in this video view the [video-walkthrough branch](https://github.com/emholmes/readme-generator-nodejs/tree/video-walkthrough).
-
 Invoking application in the terminal:
 ![Command-line prompts](./assets/images/terminal-prompts.png)
 
-README Generated in Video Walkthrough:
+README Generated in Video Walkthrough: [view here](https://github.com/emholmes/readme-generator-nodejs/tree/video-walkthrough)
 ![Generated README file](./assets/images/generated-readme.png)
 
 ## Questions
