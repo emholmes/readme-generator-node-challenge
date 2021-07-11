@@ -18,7 +18,7 @@ To install any necessay dependencies run the following command:
     npm install
 
 ## Usage
-After you clone the repo to your local machine, open the package up in your favorite IDE. Make sure npm is installed (hint: `npm -v`). From within your local package’s root directory install inquirer.js, `npm install inquirer`. This will install all inquirer dependencies. Once inquirer is installed, execute the program by running `node index.js` in the terminal. You will be prompted with some questions about the project for the README being generated. Once all questions are answered, a README.md is generated in the root directory.  
+After you clone the repo to your local machine, open the package up in your favorite IDE. Make sure node.js and npm are installed (hint: `node -v` & `npm -v`). From within your local package’s root directory install inquirer.js, `npm install inquirer`. This will install all inquirer dependencies. Once inquirer is installed, execute the program by running `node index.js` in the terminal. You will be prompted with some questions about the project for the README being generated. Once all questions are answered, a README.md is generated in the root directory.  
 
 ## Video Walkthrough 
 [Video walkthrough](https://drive.google.com/file/d/1C93Apu6RfJPSAJdn-KKaQ2Ckb8MRg0f4/view)
@@ -26,7 +26,7 @@ After you clone the repo to your local machine, open the package up in your favo
 Invoking application in the terminal:
 ![Command-line prompts](./assets/images/terminal-prompts.png)
 
-README Generated in Video Walkthrough: [view here](https://github.com/emholmes/readme-generator-nodejs/tree/video-walkthrough)
+README Generated in video walkthrough: [view on GitHub](https://github.com/emholmes/readme-generator-nodejs/tree/video-walkthrough)
 ![Generated README file](./assets/images/generated-readme.png)
 
 ## Questions
