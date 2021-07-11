@@ -97,8 +97,8 @@ const generateMarkdown = (data) => {
     ${data.tests}
 
   ## Questions
-  ${data.username}
-  
+  If you have any questions about the repo, create a new issue and add the label "question" or contact me directly at [![Email](${data.email})](mailto:${data.email}).
+  View more of my at ${data.username}.
   `;
 }
 
