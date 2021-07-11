@@ -1,7 +1,7 @@
  
   #  
 
-  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
   
@@ -17,13 +17,13 @@
   ## Installation
   To install any necessay dependencies run the following command: 
 
-    
+    npm install
 
   ## Usage
   
 
   ## License 
- Licensed under the [Boost 1.0](https://www.boost.org/LICENSE_1_0.txt) license. 
+ Licensed under the [MIT](https://opensource.org/licenses/MIT) license. 
 
   ## Contributing
   
@@ -31,7 +31,7 @@
   ## Tests
   To run tests, use the following command: 
   
-    
+    npm run test
 
   ## Questions
   If you have any questions about the repo, create a new issue and add the label "question" or contact me directly at [](mailto:). 
