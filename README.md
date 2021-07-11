@@ -20,7 +20,7 @@
     npm install
 
   ## Usage
-  After you clone the repo on your local machine, open the package up in your favorite IDE. Make sure npm is installed (hint: `npm -v`). From within the packages root directory and install inquirer.js: `npm install inquirer`. This will install all inquirer dependencies. Once inquirer is installed, execute the program by running `node index.js` in the terminal. You will be prompted with some questions about the project for the README being generated. Once all questions are answered, a README.md is generated in the main package folder. 
+  After you clone the repo on your local machine, open the package up in your favorite IDE. Make sure npm is installed (hint: `npm -v`). From within your local package’s root directory install inquirer.js, `npm install inquirer`. This will install all inquirer dependencies. Once inquirer is installed, execute the program by running `node index.js` in the terminal. You will be prompted with some questions about the project for the README being generated. Once all questions are answered, a README.md is generated in the main package folder. 
 
   ## License 
  Licensed under the [MIT](https://opensource.org/licenses/MIT) license. 
